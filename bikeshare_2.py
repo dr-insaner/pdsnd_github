@@ -168,7 +168,7 @@ def user_stats(df):
     print(user_types)
     print()
 
-    if 'Gender' in df:
+    if 'Gender' in df:  #in some files column 'gender' is not available in every CSV
         # Display counts of gender
         user_types = df['Gender'].value_counts()
         print('Gender: ')
