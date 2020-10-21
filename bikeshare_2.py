@@ -203,7 +203,7 @@ def main():
         if raw_data.lower() != 'no':
             while True:
                 print(df.iloc[zeile:zeile+5])
-                more_data = input('\nMore data? Enter yes or no.\n')
+                more_data = input('\nDo you want to see more data? Enter yes or no.\n')
                 zeile =+ 5
                 if more_data != 'yes':
                     break
