@@ -50,6 +50,14 @@ def get_filters():
 
 def load_data(city, month, day):
     """loads the data for the given city, month and day
+
+    Args:
+        city ([string]): city
+        month ([int]): I think so
+        day ([int]): I think so
+
+    Returns:
+        pandas dataframe: filtered for day month, city
     """
     # load data file into a dataframe
     df = pd.read_csv(city)
