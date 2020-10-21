@@ -11,5 +11,5 @@ Bikeshare csv will be analyized
 csv files and a python file
 
 ### Credits
-Mama and papa
+Mama and papa and the whole family
 
